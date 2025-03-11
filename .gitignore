@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.venv
+
+# Django-related files
+*.log
+local_settings.py
+db.sqlite3
+instance/
+media/
+staticfiles/
+
+# Migrations (optional: keep them if sharing the project)
+**/migrations/*
+!**/migrations/__init__.py
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Python cache
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.envrc
+
+# Pytest / Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+.pytest_cache/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Docker / Deployment
+*.dockerfile
+docker-compose*.yml
+
+# Node modules (if using frontend frameworks like React/Vue with Django)
+node_modules/
+yarn.lock
+package-lock.json
